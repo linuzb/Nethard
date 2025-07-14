@@ -39,8 +39,8 @@ subprojects {
             }
 
             project.name.let { name ->
-                namespace = if (name == "app") "com.github.kr328.clash"
-                else "com.github.kr328.clash.$name"
+                namespace = if (name == "app") "com.github.linuzb.nethard"
+                else "com.github.linuzb.nethard.$name"
             }
 
             minSdk = 21
