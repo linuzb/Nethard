@@ -1,13 +1,13 @@
-package com.github.kr328.clash.remote
+package com.github.linuzb.nethard.remote
 
 import android.app.Application
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
-import com.github.kr328.clash.common.compat.registerReceiverCompat
-import com.github.kr328.clash.common.constants.Intents
-import com.github.kr328.clash.common.log.Log
+import com.github.linuzb.nethard.common.compat.registerReceiverCompat
+import com.github.linuzb.nethard.common.constants.Intents
+import com.github.linuzb.nethard.common.log.Log
 import java.util.*
 
 class Broadcasts(private val context: Application) {

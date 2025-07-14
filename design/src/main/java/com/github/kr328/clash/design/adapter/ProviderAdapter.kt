@@ -1,14 +1,14 @@
-package com.github.kr328.clash.design.adapter
+package com.github.linuzb.nethard.design.adapter
 
 import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.core.model.Provider
-import com.github.kr328.clash.design.databinding.AdapterProviderBinding
-import com.github.kr328.clash.design.model.ProviderState
-import com.github.kr328.clash.design.ui.ObservableCurrentTime
-import com.github.kr328.clash.design.util.layoutInflater
+import com.github.linuzb.nethard.core.model.Provider
+import com.github.linuzb.nethard.design.databinding.AdapterProviderBinding
+import com.github.linuzb.nethard.design.model.ProviderState
+import com.github.linuzb.nethard.design.ui.ObservableCurrentTime
+import com.github.linuzb.nethard.design.util.layoutInflater
 
 class ProviderAdapter(
     private val context: Context,

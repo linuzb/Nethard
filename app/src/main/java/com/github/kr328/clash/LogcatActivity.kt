@@ -1,4 +1,4 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.content.ComponentName
 import android.content.Context
@@ -7,20 +7,20 @@ import android.net.Uri
 import android.os.IBinder
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import com.github.kr328.clash.common.compat.startForegroundServiceCompat
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.common.util.fileName
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.common.util.ticker
-import com.github.kr328.clash.core.model.LogMessage
-import com.github.kr328.clash.design.LogcatDesign
-import com.github.kr328.clash.design.dialog.withModelProgressBar
-import com.github.kr328.clash.design.model.LogFile
-import com.github.kr328.clash.design.ui.ToastDuration
-import com.github.kr328.clash.design.util.showExceptionToast
-import com.github.kr328.clash.log.LogcatFilter
-import com.github.kr328.clash.log.LogcatReader
-import com.github.kr328.clash.util.logsDir
+import com.github.linuzb.nethard.common.compat.startForegroundServiceCompat
+import com.github.linuzb.nethard.common.log.Log
+import com.github.linuzb.nethard.common.util.fileName
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.common.util.ticker
+import com.github.linuzb.nethard.core.model.LogMessage
+import com.github.linuzb.nethard.design.LogcatDesign
+import com.github.linuzb.nethard.design.dialog.withModelProgressBar
+import com.github.linuzb.nethard.design.model.LogFile
+import com.github.linuzb.nethard.design.ui.ToastDuration
+import com.github.linuzb.nethard.design.util.showExceptionToast
+import com.github.linuzb.nethard.log.LogcatFilter
+import com.github.linuzb.nethard.log.LogcatReader
+import com.github.linuzb.nethard.util.logsDir
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
@@ -28,7 +28,7 @@ import kotlinx.coroutines.withContext
 import java.io.OutputStreamWriter
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
-import com.github.kr328.clash.design.R
+import com.github.linuzb.nethard.design.R
 
 class LogcatActivity : BaseActivity<LogcatDesign>() {
     private var conn: ServiceConnection? = null

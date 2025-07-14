@@ -1,14 +1,14 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.database.Cursor
 import android.net.Uri
 import android.provider.OpenableColumns
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import com.github.kr328.clash.core.Clash
-import com.github.kr328.clash.design.MetaFeatureSettingsDesign
-import com.github.kr328.clash.util.clashDir
-import com.github.kr328.clash.util.withClash
+import com.github.linuzb.nethard.core.Clash
+import com.github.linuzb.nethard.design.MetaFeatureSettingsDesign
+import com.github.linuzb.nethard.util.clashDir
+import com.github.linuzb.nethard.util.withClash
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
@@ -16,7 +16,7 @@ import kotlinx.coroutines.selects.select
 import kotlinx.coroutines.withContext
 import java.io.File
 import java.io.FileOutputStream
-import com.github.kr328.clash.design.R
+import com.github.linuzb.nethard.design.R
 
 
 class MetaFeatureSettingsActivity : BaseActivity<MetaFeatureSettingsDesign>() {

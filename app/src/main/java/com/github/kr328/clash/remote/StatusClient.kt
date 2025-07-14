@@ -1,10 +1,10 @@
-package com.github.kr328.clash.remote
+package com.github.linuzb.nethard.remote
 
 import android.content.Context
 import android.net.Uri
-import com.github.kr328.clash.common.constants.Authorities
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.service.StatusProvider
+import com.github.linuzb.nethard.common.constants.Authorities
+import com.github.linuzb.nethard.common.log.Log
+import com.github.linuzb.nethard.service.StatusProvider
 
 class StatusClient(private val context: Context) {
     private val uri: Uri

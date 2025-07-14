@@ -1,3 +1,3 @@
-package com.github.kr328.clash.common.util
+package com.github.linuzb.nethard.common.util
 
 val PatternFileName = Regex("[^*&%\\n\\r/]+")

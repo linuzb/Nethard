@@ -1,4 +1,4 @@
-package com.github.kr328.clash.core.bridge
+package com.github.linuzb.nethard.core.bridge
 
 import androidx.annotation.Keep
 

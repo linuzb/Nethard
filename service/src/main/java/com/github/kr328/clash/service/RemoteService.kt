@@ -1,12 +1,12 @@
-package com.github.kr328.clash.service
+package com.github.linuzb.nethard.service
 
 import android.content.Intent
 import android.os.IBinder
-import com.github.kr328.clash.service.remote.IClashManager
-import com.github.kr328.clash.service.remote.IRemoteService
-import com.github.kr328.clash.service.remote.IProfileManager
-import com.github.kr328.clash.service.remote.wrap
-import com.github.kr328.clash.service.util.cancelAndJoinBlocking
+import com.github.linuzb.nethard.service.remote.IClashManager
+import com.github.linuzb.nethard.service.remote.IRemoteService
+import com.github.linuzb.nethard.service.remote.IProfileManager
+import com.github.linuzb.nethard.service.remote.wrap
+import com.github.linuzb.nethard.service.util.cancelAndJoinBlocking
 
 class RemoteService : BaseService(), IRemoteService {
     private val binder = this.wrap()

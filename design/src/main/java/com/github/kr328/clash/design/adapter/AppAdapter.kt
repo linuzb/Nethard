@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design.adapter
+package com.github.linuzb.nethard.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.databinding.AdapterAppBinding
-import com.github.kr328.clash.design.model.AppInfo
-import com.github.kr328.clash.design.util.layoutInflater
-import com.github.kr328.clash.design.util.root
+import com.github.linuzb.nethard.design.databinding.AdapterAppBinding
+import com.github.linuzb.nethard.design.model.AppInfo
+import com.github.linuzb.nethard.design.util.layoutInflater
+import com.github.linuzb.nethard.design.util.root
 
 class AppAdapter(
     private val context: Context,

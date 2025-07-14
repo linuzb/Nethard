@@ -1,8 +1,8 @@
-package com.github.kr328.clash.service.clash.module
+package com.github.linuzb.nethard.service.clash.module
 
 import android.app.Service
-import com.github.kr328.clash.common.constants.Intents
-import com.github.kr328.clash.common.log.Log
+import com.github.linuzb.nethard.common.constants.Intents
+import com.github.linuzb.nethard.common.log.Log
 
 class CloseModule(service: Service) : Module<CloseModule.RequestClose>(service) {
     object RequestClose

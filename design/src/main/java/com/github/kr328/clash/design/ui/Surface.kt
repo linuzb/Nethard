@@ -1,8 +1,8 @@
-package com.github.kr328.clash.design.ui
+package com.github.linuzb.nethard.design.ui
 
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
-import com.github.kr328.clash.design.BR
+import com.github.linuzb.nethard.design.BR
 
 class Surface : BaseObservable() {
     var insets: Insets = Insets.EMPTY

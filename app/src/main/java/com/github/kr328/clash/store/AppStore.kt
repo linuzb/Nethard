@@ -1,8 +1,8 @@
-package com.github.kr328.clash.store
+package com.github.linuzb.nethard.store
 
 import android.content.Context
-import com.github.kr328.clash.common.store.Store
-import com.github.kr328.clash.common.store.asStoreProvider
+import com.github.linuzb.nethard.common.store.Store
+import com.github.linuzb.nethard.common.store.asStoreProvider
 
 class AppStore(context: Context) {
     private val store = Store(

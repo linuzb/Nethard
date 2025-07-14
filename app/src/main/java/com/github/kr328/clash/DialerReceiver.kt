@@ -1,4 +1,4 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.content.BroadcastReceiver
 import android.content.Context

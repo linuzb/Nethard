@@ -1,8 +1,8 @@
-package com.github.kr328.clash.service
+package com.github.linuzb.nethard.service
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.github.kr328.clash.common.constants.Authorities
+import com.github.linuzb.nethard.common.constants.Authorities
 import rikka.preference.MultiProcessPreference
 import rikka.preference.PreferenceProvider
 

@@ -1,6 +1,6 @@
-package com.github.kr328.clash.service.remote
+package com.github.linuzb.nethard.service.remote
 
-import com.github.kr328.clash.core.model.FetchStatus
+import com.github.linuzb.nethard.core.model.FetchStatus
 import com.github.kr328.kaidl.BinderInterface
 
 @BinderInterface

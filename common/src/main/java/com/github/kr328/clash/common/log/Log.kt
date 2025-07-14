@@ -1,4 +1,4 @@
-package com.github.kr328.clash.common.log
+package com.github.linuzb.nethard.common.log
 
 object Log {
     private const val TAG = "ClashMetaForAndroid"

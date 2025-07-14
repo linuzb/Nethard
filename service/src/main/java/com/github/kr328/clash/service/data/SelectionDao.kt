@@ -1,4 +1,4 @@
-package com.github.kr328.clash.service.data
+package com.github.linuzb.nethard.service.data
 
 import androidx.room.*
 import java.util.*

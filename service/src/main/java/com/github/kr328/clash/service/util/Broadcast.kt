@@ -1,9 +1,9 @@
-package com.github.kr328.clash.service.util
+package com.github.linuzb.nethard.service.util
 
 import android.content.Context
 import android.content.Intent
-import com.github.kr328.clash.common.constants.Intents
-import com.github.kr328.clash.common.constants.Permissions
+import com.github.linuzb.nethard.common.constants.Intents
+import com.github.linuzb.nethard.common.constants.Permissions
 import java.util.*
 
 fun Context.sendBroadcastSelf(intent: Intent) {

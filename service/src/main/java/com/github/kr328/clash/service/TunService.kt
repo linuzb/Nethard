@@ -1,4 +1,4 @@
-package com.github.kr328.clash.service
+package com.github.linuzb.nethard.service
 
 import android.annotation.TargetApi
 import android.app.PendingIntent
@@ -6,17 +6,17 @@ import android.content.Intent
 import android.net.ProxyInfo
 import android.net.VpnService
 import android.os.Build
-import com.github.kr328.clash.common.compat.pendingIntentFlags
-import com.github.kr328.clash.common.constants.Components
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.service.clash.clashRuntime
-import com.github.kr328.clash.service.clash.module.*
-import com.github.kr328.clash.service.model.AccessControlMode
-import com.github.kr328.clash.service.store.ServiceStore
-import com.github.kr328.clash.service.util.cancelAndJoinBlocking
-import com.github.kr328.clash.service.util.parseCIDR
-import com.github.kr328.clash.service.util.sendClashStarted
-import com.github.kr328.clash.service.util.sendClashStopped
+import com.github.linuzb.nethard.common.compat.pendingIntentFlags
+import com.github.linuzb.nethard.common.constants.Components
+import com.github.linuzb.nethard.common.log.Log
+import com.github.linuzb.nethard.service.clash.clashRuntime
+import com.github.linuzb.nethard.service.clash.module.*
+import com.github.linuzb.nethard.service.model.AccessControlMode
+import com.github.linuzb.nethard.service.store.ServiceStore
+import com.github.linuzb.nethard.service.util.cancelAndJoinBlocking
+import com.github.linuzb.nethard.service.util.parseCIDR
+import com.github.linuzb.nethard.service.util.sendClashStarted
+import com.github.linuzb.nethard.service.util.sendClashStopped
 import kotlinx.coroutines.*
 import kotlinx.coroutines.selects.select
 

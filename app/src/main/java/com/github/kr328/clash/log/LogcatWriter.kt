@@ -1,9 +1,9 @@
-package com.github.kr328.clash.log
+package com.github.linuzb.nethard.log
 
 import android.content.Context
-import com.github.kr328.clash.core.model.LogMessage
-import com.github.kr328.clash.design.model.LogFile
-import com.github.kr328.clash.util.logsDir
+import com.github.linuzb.nethard.core.model.LogMessage
+import com.github.linuzb.nethard.design.model.LogFile
+import com.github.linuzb.nethard.util.logsDir
 import java.io.BufferedWriter
 import java.io.FileWriter
 

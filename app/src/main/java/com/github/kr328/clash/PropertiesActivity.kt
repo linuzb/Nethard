@@ -1,18 +1,18 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.common.util.setUUID
-import com.github.kr328.clash.common.util.uuid
-import com.github.kr328.clash.design.PropertiesDesign
-import com.github.kr328.clash.design.ui.ToastDuration
-import com.github.kr328.clash.design.util.showExceptionToast
-import com.github.kr328.clash.service.model.Profile
-import com.github.kr328.clash.util.withProfile
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.common.util.setUUID
+import com.github.linuzb.nethard.common.util.uuid
+import com.github.linuzb.nethard.design.PropertiesDesign
+import com.github.linuzb.nethard.design.ui.ToastDuration
+import com.github.linuzb.nethard.design.util.showExceptionToast
+import com.github.linuzb.nethard.service.model.Profile
+import com.github.linuzb.nethard.util.withProfile
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.selects.select
-import com.github.kr328.clash.design.R
+import com.github.linuzb.nethard.design.R
 
 class PropertiesActivity : BaseActivity<PropertiesDesign>() {
     private var canceled: Boolean = false

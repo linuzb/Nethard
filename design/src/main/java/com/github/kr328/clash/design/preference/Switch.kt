@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design.preference
+package com.github.linuzb.nethard.design.preference
 
 import android.graphics.drawable.Drawable
 import android.view.View
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.github.kr328.clash.common.compat.getDrawableCompat
-import com.github.kr328.clash.design.databinding.PreferenceSwitchBinding
-import com.github.kr328.clash.design.util.layoutInflater
+import com.github.linuzb.nethard.common.compat.getDrawableCompat
+import com.github.linuzb.nethard.design.databinding.PreferenceSwitchBinding
+import com.github.linuzb.nethard.design.util.layoutInflater
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

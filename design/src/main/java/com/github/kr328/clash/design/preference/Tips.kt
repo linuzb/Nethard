@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design.preference
+package com.github.linuzb.nethard.design.preference
 
 import android.view.View
 import androidx.annotation.StringRes
-import com.github.kr328.clash.design.databinding.PreferenceTipsBinding
-import com.github.kr328.clash.design.util.getHtml
-import com.github.kr328.clash.design.util.layoutInflater
-import com.github.kr328.clash.design.util.root
+import com.github.linuzb.nethard.design.databinding.PreferenceTipsBinding
+import com.github.linuzb.nethard.design.util.getHtml
+import com.github.linuzb.nethard.design.util.layoutInflater
+import com.github.linuzb.nethard.design.util.root
 
 interface TipsPreference : Preference {
     var text: CharSequence?

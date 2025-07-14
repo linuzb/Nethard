@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.util
+package com.github.linuzb.nethard.design.util
 
 import android.view.View
 import androidx.databinding.BindingAdapter

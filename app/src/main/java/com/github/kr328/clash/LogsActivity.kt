@@ -1,10 +1,10 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.common.util.setFileName
-import com.github.kr328.clash.design.LogsDesign
-import com.github.kr328.clash.design.model.LogFile
-import com.github.kr328.clash.util.logsDir
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.common.util.setFileName
+import com.github.linuzb.nethard.design.LogsDesign
+import com.github.linuzb.nethard.design.model.LogFile
+import com.github.linuzb.nethard.util.logsDir
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select

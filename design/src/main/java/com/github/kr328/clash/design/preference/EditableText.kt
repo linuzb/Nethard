@@ -1,9 +1,9 @@
-package com.github.kr328.clash.design.preference
+package com.github.linuzb.nethard.design.preference
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.dialog.requestModelTextInput
+import com.github.linuzb.nethard.design.R
+import com.github.linuzb.nethard.design.dialog.requestModelTextInput
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

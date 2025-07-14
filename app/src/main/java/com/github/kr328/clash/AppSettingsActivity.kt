@@ -1,12 +1,12 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.content.ComponentName
 import android.content.pm.PackageManager
-import com.github.kr328.clash.common.util.componentName
-import com.github.kr328.clash.design.AppSettingsDesign
-import com.github.kr328.clash.design.model.Behavior
-import com.github.kr328.clash.service.store.ServiceStore
-import com.github.kr328.clash.util.ApplicationObserver
+import com.github.linuzb.nethard.common.util.componentName
+import com.github.linuzb.nethard.design.AppSettingsDesign
+import com.github.linuzb.nethard.design.model.Behavior
+import com.github.linuzb.nethard.service.store.ServiceStore
+import com.github.linuzb.nethard.util.ApplicationObserver
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
 

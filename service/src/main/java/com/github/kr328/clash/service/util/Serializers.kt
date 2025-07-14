@@ -1,4 +1,4 @@
-package com.github.kr328.clash.service.util
+package com.github.linuzb.nethard.service.util
 
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.descriptors.PrimitiveKind

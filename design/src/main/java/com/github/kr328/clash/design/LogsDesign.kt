@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design
+package com.github.linuzb.nethard.design
 
 import android.content.Context
 import android.view.View
-import com.github.kr328.clash.design.adapter.LogFileAdapter
-import com.github.kr328.clash.design.databinding.DesignLogsBinding
-import com.github.kr328.clash.design.model.LogFile
-import com.github.kr328.clash.design.util.*
+import com.github.linuzb.nethard.design.adapter.LogFileAdapter
+import com.github.linuzb.nethard.design.databinding.DesignLogsBinding
+import com.github.linuzb.nethard.design.model.LogFile
+import com.github.linuzb.nethard.design.util.*
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.suspendCancellableCoroutine

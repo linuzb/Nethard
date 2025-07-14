@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.model
+package com.github.linuzb.nethard.design.model
 
 import android.graphics.drawable.Drawable
 

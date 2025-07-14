@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.util
+package com.github.linuzb.nethard.design.util
 
 import android.content.Context
 import android.view.View
@@ -7,8 +7,8 @@ import androidx.databinding.Observable
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.BR
-import com.github.kr328.clash.design.ui.Surface
+import com.github.linuzb.nethard.design.BR
+import com.github.linuzb.nethard.design.ui.Surface
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlin.reflect.KMutableProperty0

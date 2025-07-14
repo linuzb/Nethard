@@ -1,4 +1,4 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -9,13 +9,13 @@ import android.os.Build
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 import androidx.annotation.RequiresApi
-import com.github.kr328.clash.common.compat.registerReceiverCompat
-import com.github.kr328.clash.common.constants.Intents
-import com.github.kr328.clash.common.constants.Permissions
-import com.github.kr328.clash.remote.StatusClient
-import com.github.kr328.clash.util.startClashService
-import com.github.kr328.clash.util.stopClashService
-import com.github.kr328.clash.service.R
+import com.github.linuzb.nethard.common.compat.registerReceiverCompat
+import com.github.linuzb.nethard.common.constants.Intents
+import com.github.linuzb.nethard.common.constants.Permissions
+import com.github.linuzb.nethard.remote.StatusClient
+import com.github.linuzb.nethard.util.startClashService
+import com.github.linuzb.nethard.util.stopClashService
+import com.github.linuzb.nethard.service.R
 
 @RequiresApi(Build.VERSION_CODES.N)
 class TileService : TileService() {

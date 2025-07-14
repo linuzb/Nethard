@@ -1,14 +1,14 @@
-package com.github.kr328.clash.design.component
+package com.github.linuzb.nethard.design.component
 
 import android.content.Context
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.widget.PopupMenu
-import com.github.kr328.clash.core.model.ProxySort
-import com.github.kr328.clash.core.model.TunnelState
-import com.github.kr328.clash.design.ProxyDesign
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.store.UiStore
+import com.github.linuzb.nethard.core.model.ProxySort
+import com.github.linuzb.nethard.core.model.TunnelState
+import com.github.linuzb.nethard.design.ProxyDesign
+import com.github.linuzb.nethard.design.R
+import com.github.linuzb.nethard.design.store.UiStore
 import kotlinx.coroutines.channels.Channel
 
 class ProxyMenu(

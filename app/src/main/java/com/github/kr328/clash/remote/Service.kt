@@ -1,16 +1,16 @@
-package com.github.kr328.clash.remote
+package com.github.linuzb.nethard.remote
 
 import android.app.Application
 import android.content.ComponentName
 import android.content.Context
 import android.content.ServiceConnection
 import android.os.IBinder
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.service.RemoteService
-import com.github.kr328.clash.service.remote.IRemoteService
-import com.github.kr328.clash.service.remote.unwrap
-import com.github.kr328.clash.util.unbindServiceSilent
+import com.github.linuzb.nethard.common.log.Log
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.service.RemoteService
+import com.github.linuzb.nethard.service.remote.IRemoteService
+import com.github.linuzb.nethard.service.remote.unwrap
+import com.github.linuzb.nethard.util.unbindServiceSilent
 import java.util.concurrent.TimeUnit
 
 class Service(private val context: Application, val crashed: () -> Unit) {

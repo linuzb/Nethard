@@ -1,4 +1,4 @@
-package com.github.kr328.clash.core.util
+package com.github.linuzb.nethard.core.util
 
 import android.os.Parcel
 import kotlinx.serialization.DeserializationStrategy

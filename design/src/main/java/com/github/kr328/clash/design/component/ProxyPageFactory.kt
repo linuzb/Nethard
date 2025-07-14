@@ -1,10 +1,10 @@
-package com.github.kr328.clash.design.component
+package com.github.linuzb.nethard.design.component
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.view.VerticalScrollableHost
+import com.github.linuzb.nethard.design.view.VerticalScrollableHost
 
 class ProxyPageFactory(private val config: ProxyViewConfig) {
     class Holder(

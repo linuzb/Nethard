@@ -1,14 +1,14 @@
-package com.github.kr328.clash.service.document
+package com.github.linuzb.nethard.service.document
 
 import android.content.Context
 import android.provider.DocumentsContract
-import com.github.kr328.clash.service.R
-import com.github.kr328.clash.service.data.ImportedDao
-import com.github.kr328.clash.service.data.Pending
-import com.github.kr328.clash.service.data.PendingDao
-import com.github.kr328.clash.service.model.Profile
-import com.github.kr328.clash.service.util.importedDir
-import com.github.kr328.clash.service.util.pendingDir
+import com.github.linuzb.nethard.service.R
+import com.github.linuzb.nethard.service.data.ImportedDao
+import com.github.linuzb.nethard.service.data.Pending
+import com.github.linuzb.nethard.service.data.PendingDao
+import com.github.linuzb.nethard.service.model.Profile
+import com.github.linuzb.nethard.service.util.importedDir
+import com.github.linuzb.nethard.service.util.pendingDir
 import java.io.FileNotFoundException
 import java.util.*
 

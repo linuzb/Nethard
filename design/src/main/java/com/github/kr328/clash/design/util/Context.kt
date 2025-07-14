@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.util
+package com.github.linuzb.nethard.design.util
 
 import android.app.Activity
 import android.content.Context
@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.annotation.DimenRes
 import androidx.annotation.StringRes
-import com.github.kr328.clash.common.compat.fromHtmlCompat
+import com.github.linuzb.nethard.common.compat.fromHtmlCompat
 
 val Context.layoutInflater: LayoutInflater
     get() = LayoutInflater.from(this)

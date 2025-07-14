@@ -1,10 +1,10 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.github.kr328.clash.service.StatusProvider
-import com.github.kr328.clash.util.startClashService
+import com.github.linuzb.nethard.service.StatusProvider
+import com.github.linuzb.nethard.util.startClashService
 
 class RestartReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {

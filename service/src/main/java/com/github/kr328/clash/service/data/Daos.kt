@@ -1,4 +1,4 @@
-package com.github.kr328.clash.service.data
+package com.github.linuzb.nethard.service.data
 
 fun ImportedDao(): ImportedDao {
     return Database.database.openImportedDao()

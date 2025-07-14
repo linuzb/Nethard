@@ -1,10 +1,10 @@
-package com.github.kr328.clash.service.store
+package com.github.linuzb.nethard.service.store
 
 import android.content.Context
-import com.github.kr328.clash.common.store.Store
-import com.github.kr328.clash.common.store.asStoreProvider
-import com.github.kr328.clash.service.PreferenceProvider
-import com.github.kr328.clash.service.model.AccessControlMode
+import com.github.linuzb.nethard.common.store.Store
+import com.github.linuzb.nethard.common.store.asStoreProvider
+import com.github.linuzb.nethard.service.PreferenceProvider
+import com.github.linuzb.nethard.service.model.AccessControlMode
 import java.util.*
 
 class ServiceStore(context: Context) {

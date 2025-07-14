@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design.adapter
+package com.github.linuzb.nethard.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.databinding.AdapterEditableTextListBinding
-import com.github.kr328.clash.design.preference.TextAdapter
-import com.github.kr328.clash.design.util.layoutInflater
+import com.github.linuzb.nethard.design.databinding.AdapterEditableTextListBinding
+import com.github.linuzb.nethard.design.preference.TextAdapter
+import com.github.linuzb.nethard.design.util.layoutInflater
 
 class EditableTextListAdapter<T>(
     private val context: Context,

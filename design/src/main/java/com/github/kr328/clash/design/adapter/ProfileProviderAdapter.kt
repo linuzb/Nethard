@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design.adapter
+package com.github.linuzb.nethard.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.databinding.AdapterProfileProviderBinding
-import com.github.kr328.clash.design.model.ProfileProvider
-import com.github.kr328.clash.design.util.layoutInflater
+import com.github.linuzb.nethard.design.databinding.AdapterProfileProviderBinding
+import com.github.linuzb.nethard.design.model.ProfileProvider
+import com.github.linuzb.nethard.design.util.layoutInflater
 
 class ProfileProviderAdapter(
     private val context: Context,

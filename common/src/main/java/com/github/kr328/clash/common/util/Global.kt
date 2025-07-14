@@ -1,5 +1,5 @@
-package com.github.kr328.clash.common.util
+package com.github.linuzb.nethard.common.util
 
-import com.github.kr328.clash.common.Global
+import com.github.linuzb.nethard.common.Global
 
 val packageName: String = Global.application.packageName

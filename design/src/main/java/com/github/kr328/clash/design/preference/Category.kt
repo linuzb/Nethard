@@ -1,9 +1,9 @@
-package com.github.kr328.clash.design.preference
+package com.github.linuzb.nethard.design.preference
 
 import android.view.View
 import androidx.annotation.StringRes
-import com.github.kr328.clash.design.databinding.PreferenceCategoryBinding
-import com.github.kr328.clash.design.util.layoutInflater
+import com.github.linuzb.nethard.design.databinding.PreferenceCategoryBinding
+import com.github.linuzb.nethard.design.util.layoutInflater
 
 fun PreferenceScreen.category(
     @StringRes text: Int,

@@ -1,7 +1,7 @@
-package com.github.kr328.clash.log
+package com.github.linuzb.nethard.log
 
 import androidx.collection.CircularArray
-import com.github.kr328.clash.core.model.LogMessage
+import com.github.linuzb.nethard.core.model.LogMessage
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 

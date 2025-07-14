@@ -1,16 +1,16 @@
-package com.github.kr328.clash.design
+package com.github.linuzb.nethard.design
 
 import android.content.Context
 import android.view.View
 import androidx.core.widget.addTextChangedListener
-import com.github.kr328.clash.design.adapter.AppAdapter
-import com.github.kr328.clash.design.component.AccessControlMenu
-import com.github.kr328.clash.design.databinding.DesignAccessControlBinding
-import com.github.kr328.clash.design.databinding.DialogSearchBinding
-import com.github.kr328.clash.design.dialog.FullScreenDialog
-import com.github.kr328.clash.design.model.AppInfo
-import com.github.kr328.clash.design.store.UiStore
-import com.github.kr328.clash.design.util.*
+import com.github.linuzb.nethard.design.adapter.AppAdapter
+import com.github.linuzb.nethard.design.component.AccessControlMenu
+import com.github.linuzb.nethard.design.databinding.DesignAccessControlBinding
+import com.github.linuzb.nethard.design.databinding.DialogSearchBinding
+import com.github.linuzb.nethard.design.dialog.FullScreenDialog
+import com.github.linuzb.nethard.design.model.AppInfo
+import com.github.linuzb.nethard.design.store.UiStore
+import com.github.linuzb.nethard.design.util.*
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 

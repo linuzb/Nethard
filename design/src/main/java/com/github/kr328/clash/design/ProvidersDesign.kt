@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design
+package com.github.linuzb.nethard.design
 
 import android.content.Context
 import android.view.View
-import com.github.kr328.clash.core.model.Provider
-import com.github.kr328.clash.design.adapter.ProviderAdapter
-import com.github.kr328.clash.design.databinding.DesignProvidersBinding
-import com.github.kr328.clash.design.util.*
+import com.github.linuzb.nethard.core.model.Provider
+import com.github.linuzb.nethard.design.adapter.ProviderAdapter
+import com.github.linuzb.nethard.design.databinding.DesignProvidersBinding
+import com.github.linuzb.nethard.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

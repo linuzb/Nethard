@@ -1,12 +1,12 @@
 @file:Suppress("BlockingMethodInNonBlockingContext")
 
-package com.github.kr328.clash.remote
+package com.github.linuzb.nethard.remote
 
 import android.content.Context
 import android.net.Uri
-import com.github.kr328.clash.common.constants.Authorities
-import com.github.kr328.clash.design.model.File
-import com.github.kr328.clash.util.copyContentTo
+import com.github.linuzb.nethard.common.constants.Authorities
+import com.github.linuzb.nethard.design.model.File
+import com.github.linuzb.nethard.util.copyContentTo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import android.provider.DocumentsContract as DC

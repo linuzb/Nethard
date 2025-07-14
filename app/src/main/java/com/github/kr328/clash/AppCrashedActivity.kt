@@ -1,9 +1,9 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
-import com.github.kr328.clash.common.compat.versionCodeCompat
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.design.AppCrashedDesign
-import com.github.kr328.clash.log.SystemLogcat
+import com.github.linuzb.nethard.common.compat.versionCodeCompat
+import com.github.linuzb.nethard.common.log.Log
+import com.github.linuzb.nethard.design.AppCrashedDesign
+import com.github.linuzb.nethard.log.SystemLogcat
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.withContext

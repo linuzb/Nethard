@@ -1,13 +1,13 @@
-package com.github.kr328.clash.design.preference
+package com.github.linuzb.nethard.design.preference
 
 import android.content.Context
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.adapter.EditableTextMapAdapter
-import com.github.kr328.clash.design.databinding.DialogEditableMapTextFieldBinding
-import com.github.kr328.clash.design.util.layoutInflater
-import com.github.kr328.clash.design.util.root
+import com.github.linuzb.nethard.design.R
+import com.github.linuzb.nethard.design.adapter.EditableTextMapAdapter
+import com.github.linuzb.nethard.design.databinding.DialogEditableMapTextFieldBinding
+import com.github.linuzb.nethard.design.util.layoutInflater
+import com.github.linuzb.nethard.design.util.root
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.*
 import kotlin.coroutines.resume

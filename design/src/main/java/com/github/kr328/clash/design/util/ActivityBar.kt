@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design.util
+package com.github.linuzb.nethard.design.util
 
 import android.app.Activity
 import android.content.Context
 import android.widget.ImageView
 import android.widget.TextView
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.view.ActivityBarLayout
+import com.github.linuzb.nethard.design.R
+import com.github.linuzb.nethard.design.view.ActivityBarLayout
 
 fun ActivityBarLayout.applyFrom(context: Context) {
     if (context is Activity) {

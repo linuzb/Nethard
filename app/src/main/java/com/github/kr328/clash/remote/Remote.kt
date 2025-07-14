@@ -1,15 +1,15 @@
-package com.github.kr328.clash.remote
+package com.github.linuzb.nethard.remote
 
 import android.content.Context
 import android.content.Intent
-import com.github.kr328.clash.ApkBrokenActivity
-import com.github.kr328.clash.AppCrashedActivity
-import com.github.kr328.clash.common.Global
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.store.AppStore
-import com.github.kr328.clash.util.ApplicationObserver
-import com.github.kr328.clash.util.verifyApk
+import com.github.linuzb.nethard.ApkBrokenActivity
+import com.github.linuzb.nethard.AppCrashedActivity
+import com.github.linuzb.nethard.common.Global
+import com.github.linuzb.nethard.common.log.Log
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.store.AppStore
+import com.github.linuzb.nethard.util.ApplicationObserver
+import com.github.linuzb.nethard.util.verifyApk
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.launch

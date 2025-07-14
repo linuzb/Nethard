@@ -1,6 +1,6 @@
-package com.github.kr328.clash.common.constants
+package com.github.linuzb.nethard.common.constants
 
-import com.github.kr328.clash.common.util.packageName
+import com.github.linuzb.nethard.common.util.packageName
 
 object Metadata {
     val GEOIP_FILE_NAME = "$packageName.GEOIP_FILE_NAME"

@@ -1,9 +1,9 @@
-package com.github.kr328.clash.design.model
+package com.github.linuzb.nethard.design.model
 
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
-import com.github.kr328.clash.core.model.Provider
-import com.github.kr328.clash.design.BR
+import com.github.linuzb.nethard.core.model.Provider
+import com.github.linuzb.nethard.design.BR
 
 class ProviderState(
     val provider: Provider,

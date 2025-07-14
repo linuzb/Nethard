@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design.adapter
+package com.github.linuzb.nethard.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.databinding.AdapterFileBinding
-import com.github.kr328.clash.design.model.File
-import com.github.kr328.clash.design.ui.ObservableCurrentTime
-import com.github.kr328.clash.design.util.layoutInflater
+import com.github.linuzb.nethard.design.databinding.AdapterFileBinding
+import com.github.linuzb.nethard.design.model.File
+import com.github.linuzb.nethard.design.ui.ObservableCurrentTime
+import com.github.linuzb.nethard.design.util.layoutInflater
 
 class FileAdapter(
     private val context: Context,

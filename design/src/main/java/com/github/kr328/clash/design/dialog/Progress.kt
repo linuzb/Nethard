@@ -1,8 +1,8 @@
-package com.github.kr328.clash.design.dialog
+package com.github.linuzb.nethard.design.dialog
 
 import android.content.Context
-import com.github.kr328.clash.design.databinding.DialogFetchStatusBinding
-import com.github.kr328.clash.design.util.layoutInflater
+import com.github.linuzb.nethard.design.databinding.DialogFetchStatusBinding
+import com.github.linuzb.nethard.design.util.layoutInflater
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

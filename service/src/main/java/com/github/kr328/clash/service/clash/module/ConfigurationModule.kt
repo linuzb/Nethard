@@ -1,15 +1,15 @@
-package com.github.kr328.clash.service.clash.module
+package com.github.linuzb.nethard.service.clash.module
 
 import android.app.Service
-import com.github.kr328.clash.common.constants.Intents
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.core.Clash
-import com.github.kr328.clash.service.StatusProvider
-import com.github.kr328.clash.service.data.ImportedDao
-import com.github.kr328.clash.service.data.SelectionDao
-import com.github.kr328.clash.service.store.ServiceStore
-import com.github.kr328.clash.service.util.importedDir
-import com.github.kr328.clash.service.util.sendProfileLoaded
+import com.github.linuzb.nethard.common.constants.Intents
+import com.github.linuzb.nethard.common.log.Log
+import com.github.linuzb.nethard.core.Clash
+import com.github.linuzb.nethard.service.StatusProvider
+import com.github.linuzb.nethard.service.data.ImportedDao
+import com.github.linuzb.nethard.service.data.SelectionDao
+import com.github.linuzb.nethard.service.store.ServiceStore
+import com.github.linuzb.nethard.service.util.importedDir
+import com.github.linuzb.nethard.service.util.sendProfileLoaded
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.selects.select
 import java.util.*

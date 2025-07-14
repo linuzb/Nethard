@@ -1,14 +1,14 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.content.pm.PackageManager
-import com.github.kr328.clash.common.compat.getDrawableCompat
-import com.github.kr328.clash.common.constants.Metadata
-import com.github.kr328.clash.core.Clash
-import com.github.kr328.clash.design.OverrideSettingsDesign
-import com.github.kr328.clash.design.model.AppInfo
-import com.github.kr328.clash.design.util.toAppInfo
-import com.github.kr328.clash.service.store.ServiceStore
-import com.github.kr328.clash.util.withClash
+import com.github.linuzb.nethard.common.compat.getDrawableCompat
+import com.github.linuzb.nethard.common.constants.Metadata
+import com.github.linuzb.nethard.core.Clash
+import com.github.linuzb.nethard.design.OverrideSettingsDesign
+import com.github.linuzb.nethard.design.model.AppInfo
+import com.github.linuzb.nethard.design.util.toAppInfo
+import com.github.linuzb.nethard.service.store.ServiceStore
+import com.github.linuzb.nethard.util.withClash
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select

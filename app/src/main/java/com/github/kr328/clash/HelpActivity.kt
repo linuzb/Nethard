@@ -1,7 +1,7 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.content.Intent
-import com.github.kr328.clash.design.HelpDesign
+import com.github.linuzb.nethard.design.HelpDesign
 import kotlinx.coroutines.isActive
 
 class HelpActivity : BaseActivity<HelpDesign>() {

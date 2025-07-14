@@ -1,6 +1,6 @@
 @file:Suppress("BlockingMethodInNonBlockingContext")
 
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.Manifest
 import android.content.Intent
@@ -9,15 +9,15 @@ import android.net.Uri
 import android.os.Build
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
-import com.github.kr328.clash.common.util.grantPermissions
-import com.github.kr328.clash.common.util.ticker
-import com.github.kr328.clash.common.util.uuid
-import com.github.kr328.clash.design.FilesDesign
-import com.github.kr328.clash.design.util.showExceptionToast
-import com.github.kr328.clash.remote.FilesClient
-import com.github.kr328.clash.service.model.Profile
-import com.github.kr328.clash.util.fileName
-import com.github.kr328.clash.util.withProfile
+import com.github.linuzb.nethard.common.util.grantPermissions
+import com.github.linuzb.nethard.common.util.ticker
+import com.github.linuzb.nethard.common.util.uuid
+import com.github.linuzb.nethard.design.FilesDesign
+import com.github.linuzb.nethard.design.util.showExceptionToast
+import com.github.linuzb.nethard.remote.FilesClient
+import com.github.linuzb.nethard.service.model.Profile
+import com.github.linuzb.nethard.util.fileName
+import com.github.linuzb.nethard.util.withProfile
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
 import java.util.*

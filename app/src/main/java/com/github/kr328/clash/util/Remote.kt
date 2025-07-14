@@ -1,10 +1,10 @@
-package com.github.kr328.clash.util
+package com.github.linuzb.nethard.util
 
 import android.os.DeadObjectException
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.remote.Remote
-import com.github.kr328.clash.service.remote.IClashManager
-import com.github.kr328.clash.service.remote.IProfileManager
+import com.github.linuzb.nethard.common.log.Log
+import com.github.linuzb.nethard.remote.Remote
+import com.github.linuzb.nethard.service.remote.IClashManager
+import com.github.linuzb.nethard.service.remote.IProfileManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlin.coroutines.CoroutineContext

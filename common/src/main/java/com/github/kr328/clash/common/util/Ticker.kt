@@ -1,4 +1,4 @@
-package com.github.kr328.clash.common.util
+package com.github.linuzb.nethard.common.util
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.channels.Channel

@@ -1,4 +1,4 @@
-package com.github.kr328.clash.service
+package com.github.linuzb.nethard.service
 
 import android.app.AlarmManager
 import android.app.PendingIntent
@@ -6,17 +6,17 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.getSystemService
-import com.github.kr328.clash.common.Global
-import com.github.kr328.clash.common.compat.pendingIntentFlags
-import com.github.kr328.clash.common.compat.startForegroundServiceCompat
-import com.github.kr328.clash.common.constants.Intents
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.common.util.componentName
-import com.github.kr328.clash.common.util.setUUID
-import com.github.kr328.clash.service.data.Imported
-import com.github.kr328.clash.service.data.ImportedDao
-import com.github.kr328.clash.service.model.Profile
-import com.github.kr328.clash.service.util.importedDir
+import com.github.linuzb.nethard.common.Global
+import com.github.linuzb.nethard.common.compat.pendingIntentFlags
+import com.github.linuzb.nethard.common.compat.startForegroundServiceCompat
+import com.github.linuzb.nethard.common.constants.Intents
+import com.github.linuzb.nethard.common.log.Log
+import com.github.linuzb.nethard.common.util.componentName
+import com.github.linuzb.nethard.common.util.setUUID
+import com.github.linuzb.nethard.service.data.Imported
+import com.github.linuzb.nethard.service.data.ImportedDao
+import com.github.linuzb.nethard.service.model.Profile
+import com.github.linuzb.nethard.service.util.importedDir
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock

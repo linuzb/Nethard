@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design
+package com.github.linuzb.nethard.design
 
 import android.content.Context
 import android.view.View
-import com.github.kr328.clash.design.databinding.DesignAppCrashedBinding
-import com.github.kr328.clash.design.util.applyFrom
-import com.github.kr328.clash.design.util.bindAppBarElevation
-import com.github.kr328.clash.design.util.layoutInflater
-import com.github.kr328.clash.design.util.root
+import com.github.linuzb.nethard.design.databinding.DesignAppCrashedBinding
+import com.github.linuzb.nethard.design.util.applyFrom
+import com.github.linuzb.nethard.design.util.bindAppBarElevation
+import com.github.linuzb.nethard.design.util.layoutInflater
+import com.github.linuzb.nethard.design.util.root
 
 class AppCrashedDesign(context: Context) : Design<Unit>(context) {
     private val binding = DesignAppCrashedBinding

@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.view
+package com.github.linuzb.nethard.design.view
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,7 +6,7 @@ import android.view.MotionEvent
 import android.widget.FrameLayout
 import androidx.annotation.AttrRes
 import androidx.annotation.StyleRes
-import com.github.kr328.clash.design.util.resolveThemedColor
+import com.github.linuzb.nethard.design.util.resolveThemedColor
 
 class ActivityBarLayout @JvmOverloads constructor(
     context: Context,

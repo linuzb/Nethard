@@ -1,9 +1,9 @@
-package com.github.kr328.clash.design.util
+package com.github.linuzb.nethard.design.util
 
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
-import com.github.kr328.clash.common.compat.foreground
-import com.github.kr328.clash.design.model.AppInfo
+import com.github.linuzb.nethard.common.compat.foreground
+import com.github.linuzb.nethard.design.model.AppInfo
 
 fun PackageInfo.toAppInfo(pm: PackageManager): AppInfo {
     return AppInfo(

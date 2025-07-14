@@ -1,7 +1,7 @@
-package com.github.kr328.clash.service.data
+package com.github.linuzb.nethard.service.data
 
 import androidx.room.TypeConverter
-import com.github.kr328.clash.service.model.Profile
+import com.github.linuzb.nethard.service.model.Profile
 import java.util.*
 
 class Converters {

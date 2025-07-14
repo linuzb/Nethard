@@ -1,4 +1,4 @@
-package com.github.kr328.clash.util
+package com.github.linuzb.nethard.util
 
 import android.content.Context
 import android.content.ServiceConnection

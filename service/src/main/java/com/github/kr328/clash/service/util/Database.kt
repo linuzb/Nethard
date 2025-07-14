@@ -1,7 +1,7 @@
-package com.github.kr328.clash.service.util
+package com.github.linuzb.nethard.service.util
 
-import com.github.kr328.clash.service.data.ImportedDao
-import com.github.kr328.clash.service.data.PendingDao
+import com.github.linuzb.nethard.service.data.ImportedDao
+import com.github.linuzb.nethard.service.data.PendingDao
 import java.util.*
 
 suspend fun generateProfileUUID(): UUID {

@@ -1,6 +1,6 @@
-package com.github.kr328.clash.design.util
+package com.github.linuzb.nethard.design.util
 
-import com.github.kr328.clash.common.util.PatternFileName
+import com.github.linuzb.nethard.common.util.PatternFileName
 
 typealias Validator = (String) -> Boolean
 

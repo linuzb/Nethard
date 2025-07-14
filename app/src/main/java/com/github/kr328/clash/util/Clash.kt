@@ -1,15 +1,15 @@
-package com.github.kr328.clash.util
+package com.github.linuzb.nethard.util
 
 import android.content.Context
 import android.content.Intent
 import android.net.VpnService
-import com.github.kr328.clash.common.compat.startForegroundServiceCompat
-import com.github.kr328.clash.common.constants.Intents
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.design.store.UiStore
-import com.github.kr328.clash.service.ClashService
-import com.github.kr328.clash.service.TunService
-import com.github.kr328.clash.service.util.sendBroadcastSelf
+import com.github.linuzb.nethard.common.compat.startForegroundServiceCompat
+import com.github.linuzb.nethard.common.constants.Intents
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.design.store.UiStore
+import com.github.linuzb.nethard.service.ClashService
+import com.github.linuzb.nethard.service.TunService
+import com.github.linuzb.nethard.service.util.sendBroadcastSelf
 
 fun Context.startClashService(): Intent? {
     val startTun = UiStore(this).enableVpn

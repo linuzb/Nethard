@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design.dialog
+package com.github.linuzb.nethard.design.dialog
 
 import android.content.Context
 import androidx.appcompat.app.AlertDialog
 import androidx.core.widget.doOnTextChanged
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.databinding.DialogTextFieldBinding
-import com.github.kr328.clash.design.util.*
+import com.github.linuzb.nethard.design.R
+import com.github.linuzb.nethard.design.databinding.DialogTextFieldBinding
+import com.github.linuzb.nethard.design.util.*
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.coroutines.resume

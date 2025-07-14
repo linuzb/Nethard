@@ -1,4 +1,4 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.app.Activity
 import android.content.ComponentName
@@ -6,19 +6,19 @@ import android.content.Intent
 import android.net.Uri
 import android.provider.Settings
 import androidx.activity.result.contract.ActivityResultContracts
-import com.github.kr328.clash.common.constants.Intents
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.common.util.setUUID
-import com.github.kr328.clash.design.NewProfileDesign
-import com.github.kr328.clash.design.model.ProfileProvider
-import com.github.kr328.clash.service.model.Profile
-import com.github.kr328.clash.util.withProfile
+import com.github.linuzb.nethard.common.constants.Intents
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.common.util.setUUID
+import com.github.linuzb.nethard.design.NewProfileDesign
+import com.github.linuzb.nethard.design.model.ProfileProvider
+import com.github.linuzb.nethard.service.model.Profile
+import com.github.linuzb.nethard.util.withProfile
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
 import kotlinx.coroutines.withContext
 import java.util.*
-import com.github.kr328.clash.design.R
+import com.github.linuzb.nethard.design.R
 
 class NewProfileActivity : BaseActivity<NewProfileDesign>() {
     private val self: NewProfileActivity

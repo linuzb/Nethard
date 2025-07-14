@@ -1,7 +1,7 @@
-package com.github.kr328.clash.service.remote
+package com.github.linuzb.nethard.service.remote
 
-import com.github.kr328.clash.core.Clash
-import com.github.kr328.clash.core.model.*
+import com.github.linuzb.nethard.core.Clash
+import com.github.linuzb.nethard.core.model.*
 import com.github.kr328.kaidl.BinderInterface
 
 @BinderInterface

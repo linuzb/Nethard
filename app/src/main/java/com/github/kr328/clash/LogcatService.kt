@@ -1,4 +1,4 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.app.PendingIntent
 import android.app.Service
@@ -12,19 +12,19 @@ import android.os.IInterface
 import androidx.core.app.NotificationChannelCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import com.github.kr328.clash.common.compat.getColorCompat
-import com.github.kr328.clash.common.compat.pendingIntentFlags
-import com.github.kr328.clash.common.compat.startForegroundCompat
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.core.model.LogMessage
-import com.github.kr328.clash.log.LogcatCache
-import com.github.kr328.clash.log.LogcatWriter
-import com.github.kr328.clash.service.RemoteService
-import com.github.kr328.clash.service.remote.ILogObserver
-import com.github.kr328.clash.service.remote.IRemoteService
-import com.github.kr328.clash.service.remote.unwrap
-import com.github.kr328.clash.util.logsDir
+import com.github.linuzb.nethard.common.compat.getColorCompat
+import com.github.linuzb.nethard.common.compat.pendingIntentFlags
+import com.github.linuzb.nethard.common.compat.startForegroundCompat
+import com.github.linuzb.nethard.common.log.Log
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.core.model.LogMessage
+import com.github.linuzb.nethard.log.LogcatCache
+import com.github.linuzb.nethard.log.LogcatWriter
+import com.github.linuzb.nethard.service.RemoteService
+import com.github.linuzb.nethard.service.remote.ILogObserver
+import com.github.linuzb.nethard.service.remote.IRemoteService
+import com.github.linuzb.nethard.service.remote.unwrap
+import com.github.linuzb.nethard.util.logsDir
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 import java.io.IOException
@@ -131,17 +131,17 @@ class LogcatService : Service(), CoroutineScope by CoroutineScope(Dispatchers.De
                 NotificationChannelCompat.Builder(
                     CHANNEL_ID,
                     NotificationManagerCompat.IMPORTANCE_DEFAULT
-                ).setName(getString(com.github.kr328.clash.design.R.string.clash_logcat)).build()
+                ).setName(getString(com.github.linuzb.nethard.design.R.string.clash_logcat)).build()
             )
     }
 
     private fun showNotification() {
         val notification = NotificationCompat
             .Builder(this, CHANNEL_ID)
-            .setSmallIcon(com.github.kr328.clash.service.R.drawable.ic_logo_service)
-            .setColor(getColorCompat(com.github.kr328.clash.design.R.color.color_clash_light))
-            .setContentTitle(getString(com.github.kr328.clash.design.R.string.clash_logcat))
-            .setContentText(getString(com.github.kr328.clash.design.R.string.running))
+            .setSmallIcon(com.github.linuzb.nethard.service.R.drawable.ic_logo_service)
+            .setColor(getColorCompat(com.github.linuzb.nethard.design.R.color.color_clash_light))
+            .setContentTitle(getString(com.github.linuzb.nethard.design.R.string.clash_logcat))
+            .setContentText(getString(com.github.linuzb.nethard.design.R.string.running))
             .setContentIntent(
                 PendingIntent.getActivity(
                     this,

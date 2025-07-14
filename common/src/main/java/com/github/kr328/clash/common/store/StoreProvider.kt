@@ -1,4 +1,4 @@
-package com.github.kr328.clash.common.store
+package com.github.linuzb.nethard.common.store
 
 interface StoreProvider {
     fun getInt(key: String, defaultValue: Int): Int

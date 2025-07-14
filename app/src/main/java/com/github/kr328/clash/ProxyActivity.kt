@@ -1,11 +1,11 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.core.Clash
-import com.github.kr328.clash.core.model.Proxy
-import com.github.kr328.clash.design.ProxyDesign
-import com.github.kr328.clash.design.model.ProxyState
-import com.github.kr328.clash.util.withClash
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.core.Clash
+import com.github.linuzb.nethard.core.model.Proxy
+import com.github.linuzb.nethard.design.ProxyDesign
+import com.github.linuzb.nethard.design.model.ProxyState
+import com.github.linuzb.nethard.util.withClash
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.selects.select

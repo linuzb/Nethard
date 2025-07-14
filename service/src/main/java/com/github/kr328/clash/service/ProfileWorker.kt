@@ -1,4 +1,4 @@
-package com.github.kr328.clash.service
+package com.github.linuzb.nethard.service
 
 import android.app.PendingIntent
 import android.content.Intent
@@ -7,17 +7,17 @@ import android.os.IBinder
 import androidx.core.app.NotificationChannelCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import com.github.kr328.clash.common.compat.getColorCompat
-import com.github.kr328.clash.common.compat.pendingIntentFlags
-import com.github.kr328.clash.common.compat.startForegroundCompat
-import com.github.kr328.clash.common.constants.Components
-import com.github.kr328.clash.common.constants.Intents
-import com.github.kr328.clash.common.id.UndefinedIds
-import com.github.kr328.clash.common.util.setUUID
-import com.github.kr328.clash.common.util.uuid
-import com.github.kr328.clash.service.data.ImportedDao
-import com.github.kr328.clash.service.util.sendProfileUpdateCompleted
-import com.github.kr328.clash.service.util.sendProfileUpdateFailed
+import com.github.linuzb.nethard.common.compat.getColorCompat
+import com.github.linuzb.nethard.common.compat.pendingIntentFlags
+import com.github.linuzb.nethard.common.compat.startForegroundCompat
+import com.github.linuzb.nethard.common.constants.Components
+import com.github.linuzb.nethard.common.constants.Intents
+import com.github.linuzb.nethard.common.id.UndefinedIds
+import com.github.linuzb.nethard.common.util.setUUID
+import com.github.linuzb.nethard.common.util.uuid
+import com.github.linuzb.nethard.service.data.ImportedDao
+import com.github.linuzb.nethard.service.util.sendProfileUpdateCompleted
+import com.github.linuzb.nethard.service.util.sendProfileUpdateFailed
 import kotlinx.coroutines.*
 import java.util.*
 import java.util.concurrent.TimeUnit

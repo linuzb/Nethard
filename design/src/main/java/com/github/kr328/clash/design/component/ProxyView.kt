@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design.component
+package com.github.linuzb.nethard.design.component
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.Path
 import android.view.View
-import com.github.kr328.clash.common.compat.getDrawableCompat
-import com.github.kr328.clash.design.store.UiStore
+import com.github.linuzb.nethard.common.compat.getDrawableCompat
+import com.github.linuzb.nethard.design.store.UiStore
 
 class ProxyView(
     context: Context,

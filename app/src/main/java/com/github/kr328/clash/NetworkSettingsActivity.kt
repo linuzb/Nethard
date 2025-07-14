@@ -1,8 +1,8 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.design.NetworkSettingsDesign
-import com.github.kr328.clash.service.store.ServiceStore
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.design.NetworkSettingsDesign
+import com.github.linuzb.nethard.service.store.ServiceStore
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
 

@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.preference
+package com.github.linuzb.nethard.design.preference
 
 import android.content.Context
 import android.view.ViewGroup

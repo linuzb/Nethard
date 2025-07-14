@@ -1,26 +1,26 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import com.github.kr328.clash.common.constants.Intents
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.common.util.setUUID
-import com.github.kr328.clash.design.MainDesign
-import com.github.kr328.clash.design.ui.ToastDuration
-import com.github.kr328.clash.remote.Remote
-import com.github.kr328.clash.remote.StatusClient
-import com.github.kr328.clash.service.model.Profile
-import com.github.kr328.clash.util.startClashService
-import com.github.kr328.clash.util.stopClashService
-import com.github.kr328.clash.util.withProfile
+import com.github.linuzb.nethard.common.constants.Intents
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.common.util.setUUID
+import com.github.linuzb.nethard.design.MainDesign
+import com.github.linuzb.nethard.design.ui.ToastDuration
+import com.github.linuzb.nethard.remote.Remote
+import com.github.linuzb.nethard.remote.StatusClient
+import com.github.linuzb.nethard.service.model.Profile
+import com.github.linuzb.nethard.util.startClashService
+import com.github.linuzb.nethard.util.stopClashService
+import com.github.linuzb.nethard.util.withProfile
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
 import java.util.*
-import com.github.kr328.clash.design.R
+import com.github.linuzb.nethard.design.R
 
 class ExternalControlActivity : Activity(), CoroutineScope by MainScope() {
     override fun onCreate(savedInstanceState: Bundle?) {

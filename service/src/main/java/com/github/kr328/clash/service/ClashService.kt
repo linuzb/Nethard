@@ -1,15 +1,15 @@
-package com.github.kr328.clash.service
+package com.github.linuzb.nethard.service
 
 import android.content.Intent
 import android.os.Binder
 import android.os.IBinder
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.service.clash.clashRuntime
-import com.github.kr328.clash.service.clash.module.*
-import com.github.kr328.clash.service.store.ServiceStore
-import com.github.kr328.clash.service.util.cancelAndJoinBlocking
-import com.github.kr328.clash.service.util.sendClashStarted
-import com.github.kr328.clash.service.util.sendClashStopped
+import com.github.linuzb.nethard.common.log.Log
+import com.github.linuzb.nethard.service.clash.clashRuntime
+import com.github.linuzb.nethard.service.clash.module.*
+import com.github.linuzb.nethard.service.store.ServiceStore
+import com.github.linuzb.nethard.service.util.cancelAndJoinBlocking
+import com.github.linuzb.nethard.service.util.sendClashStarted
+import com.github.linuzb.nethard.service.util.sendClashStopped
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select

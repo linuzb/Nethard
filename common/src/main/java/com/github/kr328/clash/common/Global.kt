@@ -1,4 +1,4 @@
-package com.github.kr328.clash.common
+package com.github.linuzb.nethard.common
 
 import android.app.Application
 import kotlinx.coroutines.CoroutineScope

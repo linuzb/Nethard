@@ -1,4 +1,4 @@
-package com.github.kr328.clash.log
+package com.github.linuzb.nethard.log
 
 object SystemLogcat {
     private val command = arrayOf(

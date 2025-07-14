@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design.adapter
+package com.github.linuzb.nethard.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.model.LogFile
-import com.github.kr328.clash.design.util.format
-import com.github.kr328.clash.design.view.ActionLabel
+import com.github.linuzb.nethard.design.model.LogFile
+import com.github.linuzb.nethard.design.util.format
+import com.github.linuzb.nethard.design.view.ActionLabel
 
 class LogFileAdapter(
     private val context: Context,

@@ -1,11 +1,11 @@
-package com.github.kr328.clash.common.compat
+package com.github.linuzb.nethard.common.compat
 
 import android.app.ActivityThread
 import android.app.Application
 import android.graphics.drawable.AdaptiveIconDrawable
 import android.graphics.drawable.Drawable
 import android.os.Build
-import com.github.kr328.clash.common.log.Log
+import com.github.linuzb.nethard.common.log.Log
 
 val Application.currentProcessName: String
     get() {

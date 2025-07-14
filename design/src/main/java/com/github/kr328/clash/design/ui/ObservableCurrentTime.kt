@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.ui
+package com.github.linuzb.nethard.design.ui
 
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable

@@ -1,4 +1,4 @@
-package com.github.kr328.clash.remote
+package com.github.linuzb.nethard.remote
 
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.coroutines.resume

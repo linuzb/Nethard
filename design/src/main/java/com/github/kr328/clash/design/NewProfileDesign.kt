@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design
+package com.github.linuzb.nethard.design
 
 import android.content.Context
 import android.view.View
-import com.github.kr328.clash.design.adapter.ProfileProviderAdapter
-import com.github.kr328.clash.design.databinding.DesignNewProfileBinding
-import com.github.kr328.clash.design.model.ProfileProvider
-import com.github.kr328.clash.design.util.*
+import com.github.linuzb.nethard.design.adapter.ProfileProviderAdapter
+import com.github.linuzb.nethard.design.databinding.DesignNewProfileBinding
+import com.github.linuzb.nethard.design.model.ProfileProvider
+import com.github.linuzb.nethard.design.util.*
 
 class NewProfileDesign(context: Context) : Design<NewProfileDesign.Request>(context) {
     sealed class Request {

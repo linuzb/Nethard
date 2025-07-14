@@ -1,4 +1,4 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.content.res.Configuration
 import android.os.Build
@@ -6,29 +6,29 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.result.contract.ActivityResultContract
 import androidx.appcompat.app.AppCompatActivity
-import com.github.kr328.clash.common.compat.isAllowForceDarkCompat
-import com.github.kr328.clash.common.compat.isLightNavigationBarCompat
-import com.github.kr328.clash.common.compat.isLightStatusBarsCompat
-import com.github.kr328.clash.common.compat.isSystemBarsTranslucentCompat
-import com.github.kr328.clash.core.bridge.ClashException
-import com.github.kr328.clash.design.Design
-import com.github.kr328.clash.design.model.DarkMode
-import com.github.kr328.clash.design.store.UiStore
-import com.github.kr328.clash.design.ui.DayNight
-import com.github.kr328.clash.design.util.resolveThemedBoolean
-import com.github.kr328.clash.design.util.resolveThemedColor
-import com.github.kr328.clash.design.util.showExceptionToast
-import com.github.kr328.clash.remote.Broadcasts
-import com.github.kr328.clash.remote.Remote
-import com.github.kr328.clash.util.ActivityResultLifecycle
-import com.github.kr328.clash.util.ApplicationObserver
+import com.github.linuzb.nethard.common.compat.isAllowForceDarkCompat
+import com.github.linuzb.nethard.common.compat.isLightNavigationBarCompat
+import com.github.linuzb.nethard.common.compat.isLightStatusBarsCompat
+import com.github.linuzb.nethard.common.compat.isSystemBarsTranslucentCompat
+import com.github.linuzb.nethard.core.bridge.ClashException
+import com.github.linuzb.nethard.design.Design
+import com.github.linuzb.nethard.design.model.DarkMode
+import com.github.linuzb.nethard.design.store.UiStore
+import com.github.linuzb.nethard.design.ui.DayNight
+import com.github.linuzb.nethard.design.util.resolveThemedBoolean
+import com.github.linuzb.nethard.design.util.resolveThemedColor
+import com.github.linuzb.nethard.design.util.showExceptionToast
+import com.github.linuzb.nethard.remote.Broadcasts
+import com.github.linuzb.nethard.remote.Remote
+import com.github.linuzb.nethard.util.ActivityResultLifecycle
+import com.github.linuzb.nethard.util.ApplicationObserver
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 import java.util.*
 import java.util.concurrent.atomic.AtomicInteger
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
-import com.github.kr328.clash.design.R
+import com.github.linuzb.nethard.design.R
 
 abstract class BaseActivity<D : Design<*>> : AppCompatActivity(),
     CoroutineScope by MainScope(),

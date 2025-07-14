@@ -1,4 +1,4 @@
-package com.github.kr328.clash.util
+package com.github.linuzb.nethard.util
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner

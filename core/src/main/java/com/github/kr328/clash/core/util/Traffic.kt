@@ -1,6 +1,6 @@
-package com.github.kr328.clash.core.util
+package com.github.linuzb.nethard.core.util
 
-import com.github.kr328.clash.core.model.Traffic
+import com.github.linuzb.nethard.core.model.Traffic
 
 fun Traffic.trafficUpload(): String {
     return trafficString(scaleTraffic(this ushr 32))

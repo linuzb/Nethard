@@ -1,10 +1,10 @@
-package com.github.kr328.clash.common.constants
+package com.github.linuzb.nethard.common.constants
 
 import android.content.ComponentName
-import com.github.kr328.clash.common.util.packageName
+import com.github.linuzb.nethard.common.util.packageName
 
 object Components {
-    private const val componentsPackageName = "com.github.kr328.clash"
+    private const val componentsPackageName = "com.github.linuzb.nethard"
 
     val MAIN_ACTIVITY = ComponentName(packageName, "$componentsPackageName.MainActivity")
     val PROPERTIES_ACTIVITY = ComponentName(packageName, "$componentsPackageName.PropertiesActivity")

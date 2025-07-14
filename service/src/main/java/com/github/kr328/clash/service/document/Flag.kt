@@ -1,4 +1,4 @@
-package com.github.kr328.clash.service.document
+package com.github.linuzb.nethard.service.document
 
 enum class Flag {
     Writable, Deletable, Virtual

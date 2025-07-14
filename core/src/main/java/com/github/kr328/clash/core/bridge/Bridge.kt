@@ -1,10 +1,10 @@
-package com.github.kr328.clash.core.bridge
+package com.github.linuzb.nethard.core.bridge
 
 import android.os.Build
 import android.os.ParcelFileDescriptor
 import androidx.annotation.Keep
-import com.github.kr328.clash.common.Global
-import com.github.kr328.clash.common.log.Log
+import com.github.linuzb.nethard.common.Global
+import com.github.linuzb.nethard.common.log.Log
 import kotlinx.coroutines.CompletableDeferred
 import java.io.File
 

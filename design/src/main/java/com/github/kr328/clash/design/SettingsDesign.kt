@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design
+package com.github.linuzb.nethard.design
 
 import android.content.Context
 import android.view.View
-import com.github.kr328.clash.design.databinding.DesignSettingsBinding
-import com.github.kr328.clash.design.util.applyFrom
-import com.github.kr328.clash.design.util.bindAppBarElevation
-import com.github.kr328.clash.design.util.layoutInflater
-import com.github.kr328.clash.design.util.root
+import com.github.linuzb.nethard.design.databinding.DesignSettingsBinding
+import com.github.linuzb.nethard.design.util.applyFrom
+import com.github.linuzb.nethard.design.util.bindAppBarElevation
+import com.github.linuzb.nethard.design.util.layoutInflater
+import com.github.linuzb.nethard.design.util.root
 
 class SettingsDesign(context: Context) : Design<SettingsDesign.Request>(context) {
     enum class Request {

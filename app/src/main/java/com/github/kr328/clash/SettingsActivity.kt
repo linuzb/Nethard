@@ -1,7 +1,7 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.design.SettingsDesign
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.design.SettingsDesign
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
 

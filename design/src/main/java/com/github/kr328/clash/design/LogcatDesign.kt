@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design
+package com.github.linuzb.nethard.design
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -6,11 +6,11 @@ import android.content.Context
 import android.view.View
 import androidx.core.content.getSystemService
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.github.kr328.clash.core.model.LogMessage
-import com.github.kr328.clash.design.adapter.LogMessageAdapter
-import com.github.kr328.clash.design.databinding.DesignLogcatBinding
-import com.github.kr328.clash.design.ui.ToastDuration
-import com.github.kr328.clash.design.util.*
+import com.github.linuzb.nethard.core.model.LogMessage
+import com.github.linuzb.nethard.design.adapter.LogMessageAdapter
+import com.github.linuzb.nethard.design.databinding.DesignLogcatBinding
+import com.github.linuzb.nethard.design.ui.ToastDuration
+import com.github.linuzb.nethard.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

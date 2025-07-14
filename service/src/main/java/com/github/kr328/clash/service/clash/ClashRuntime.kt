@@ -1,8 +1,8 @@
-package com.github.kr328.clash.service.clash
+package com.github.linuzb.nethard.service.clash
 
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.core.Clash
-import com.github.kr328.clash.service.clash.module.Module
+import com.github.linuzb.nethard.common.log.Log
+import com.github.linuzb.nethard.core.Clash
+import com.github.linuzb.nethard.service.clash.module.Module
 import kotlinx.coroutines.*
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock

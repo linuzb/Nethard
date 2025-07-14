@@ -1,4 +1,4 @@
-package com.github.kr328.clash.common.store
+package com.github.linuzb.nethard.common.store
 
 import android.content.SharedPreferences
 import androidx.core.content.edit

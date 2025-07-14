@@ -1,16 +1,16 @@
-package com.github.kr328.clash.design.adapter
+package com.github.linuzb.nethard.design.adapter
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.core.model.Proxy
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.component.ProxyPageFactory
-import com.github.kr328.clash.design.component.ProxyViewConfig
-import com.github.kr328.clash.design.component.ProxyViewState
-import com.github.kr328.clash.design.model.ProxyPageState
-import com.github.kr328.clash.design.model.ProxyState
-import com.github.kr328.clash.design.ui.Surface
-import com.github.kr328.clash.design.util.*
+import com.github.linuzb.nethard.core.model.Proxy
+import com.github.linuzb.nethard.design.R
+import com.github.linuzb.nethard.design.component.ProxyPageFactory
+import com.github.linuzb.nethard.design.component.ProxyViewConfig
+import com.github.linuzb.nethard.design.component.ProxyViewState
+import com.github.linuzb.nethard.design.model.ProxyPageState
+import com.github.linuzb.nethard.design.model.ProxyState
+import com.github.linuzb.nethard.design.ui.Surface
+import com.github.linuzb.nethard.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

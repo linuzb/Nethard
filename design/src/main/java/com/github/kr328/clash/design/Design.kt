@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design
+package com.github.linuzb.nethard.design
 
 import android.content.Context
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.github.kr328.clash.design.ui.Surface
-import com.github.kr328.clash.design.ui.ToastDuration
-import com.github.kr328.clash.design.util.setOnInsertsChangedListener
+import com.github.linuzb.nethard.design.ui.Surface
+import com.github.linuzb.nethard.design.ui.ToastDuration
+import com.github.linuzb.nethard.design.util.setOnInsertsChangedListener
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

@@ -1,8 +1,8 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.content.Intent
 import android.net.Uri
-import com.github.kr328.clash.design.ApkBrokenDesign
+import com.github.linuzb.nethard.design.ApkBrokenDesign
 import kotlinx.coroutines.isActive
 
 class ApkBrokenActivity : BaseActivity<ApkBrokenDesign>() {

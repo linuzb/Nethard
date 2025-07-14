@@ -1,13 +1,13 @@
-package com.github.kr328.clash.design.component
+package com.github.linuzb.nethard.design.component
 
 import android.content.Context
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.widget.PopupMenu
-import com.github.kr328.clash.design.AccessControlDesign.Request
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.model.AppInfoSort
-import com.github.kr328.clash.design.store.UiStore
+import com.github.linuzb.nethard.design.AccessControlDesign.Request
+import com.github.linuzb.nethard.design.R
+import com.github.linuzb.nethard.design.model.AppInfoSort
+import com.github.linuzb.nethard.design.store.UiStore
 import kotlinx.coroutines.channels.Channel
 
 class AccessControlMenu(

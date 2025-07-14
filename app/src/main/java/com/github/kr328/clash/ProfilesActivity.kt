@@ -1,16 +1,16 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.common.util.setUUID
-import com.github.kr328.clash.common.util.ticker
-import com.github.kr328.clash.design.ProfilesDesign
-import com.github.kr328.clash.design.ui.ToastDuration
-import com.github.kr328.clash.service.model.Profile
-import com.github.kr328.clash.util.withProfile
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.common.util.setUUID
+import com.github.linuzb.nethard.common.util.ticker
+import com.github.linuzb.nethard.design.ProfilesDesign
+import com.github.linuzb.nethard.design.ui.ToastDuration
+import com.github.linuzb.nethard.service.model.Profile
+import com.github.linuzb.nethard.util.withProfile
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
@@ -18,7 +18,7 @@ import kotlinx.coroutines.selects.select
 import kotlinx.coroutines.withContext
 import java.util.*
 import java.util.concurrent.TimeUnit
-import com.github.kr328.clash.design.R
+import com.github.linuzb.nethard.design.R
 
 class ProfilesActivity : BaseActivity<ProfilesDesign>() {
     override suspend fun main() {

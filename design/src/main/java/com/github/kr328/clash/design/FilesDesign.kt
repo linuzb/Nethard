@@ -1,15 +1,15 @@
-package com.github.kr328.clash.design
+package com.github.linuzb.nethard.design
 
 import android.app.Dialog
 import android.content.Context
 import android.view.View
-import com.github.kr328.clash.design.adapter.FileAdapter
-import com.github.kr328.clash.design.databinding.DesignFilesBinding
-import com.github.kr328.clash.design.databinding.DialogFilesMenuBinding
-import com.github.kr328.clash.design.dialog.AppBottomSheetDialog
-import com.github.kr328.clash.design.dialog.requestModelTextInput
-import com.github.kr328.clash.design.model.File
-import com.github.kr328.clash.design.util.*
+import com.github.linuzb.nethard.design.adapter.FileAdapter
+import com.github.linuzb.nethard.design.databinding.DesignFilesBinding
+import com.github.linuzb.nethard.design.databinding.DialogFilesMenuBinding
+import com.github.linuzb.nethard.design.dialog.AppBottomSheetDialog
+import com.github.linuzb.nethard.design.dialog.requestModelTextInput
+import com.github.linuzb.nethard.design.model.File
+import com.github.linuzb.nethard.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

@@ -1,4 +1,4 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.content.pm.PackageManager
 import android.os.Build
@@ -8,21 +8,21 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.result.contract.ActivityResultContracts.RequestPermission
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.github.kr328.clash.common.util.intent
-import com.github.kr328.clash.common.util.ticker
-import com.github.kr328.clash.design.MainDesign
-import com.github.kr328.clash.design.ui.ToastDuration
-import com.github.kr328.clash.util.startClashService
-import com.github.kr328.clash.util.stopClashService
-import com.github.kr328.clash.util.withClash
-import com.github.kr328.clash.util.withProfile
-import com.github.kr328.clash.core.bridge.*
+import com.github.linuzb.nethard.common.util.intent
+import com.github.linuzb.nethard.common.util.ticker
+import com.github.linuzb.nethard.design.MainDesign
+import com.github.linuzb.nethard.design.ui.ToastDuration
+import com.github.linuzb.nethard.util.startClashService
+import com.github.linuzb.nethard.util.stopClashService
+import com.github.linuzb.nethard.util.withClash
+import com.github.linuzb.nethard.util.withProfile
+import com.github.linuzb.nethard.core.bridge.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
 import kotlinx.coroutines.withContext
 import java.util.concurrent.TimeUnit
-import com.github.kr328.clash.design.R
+import com.github.linuzb.nethard.design.R
 
 class MainActivity : BaseActivity<MainDesign>() {
     override suspend fun main() {

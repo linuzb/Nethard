@@ -1,8 +1,8 @@
-package com.github.kr328.clash.design.util
+package com.github.linuzb.nethard.design.util
 
 import android.content.Context
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.ui.Insets
+import com.github.linuzb.nethard.design.R
+import com.github.linuzb.nethard.design.ui.Insets
 
 fun Insets.landscape(context: Context): Insets {
     val displayMetrics = context.resources.displayMetrics

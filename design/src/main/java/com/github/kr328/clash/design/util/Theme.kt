@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.util
+package com.github.linuzb.nethard.design.util
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -6,8 +6,8 @@ import android.util.AttributeSet
 import android.util.TypedValue
 import androidx.annotation.AttrRes
 import androidx.annotation.StyleRes
-import com.github.kr328.clash.common.compat.getDrawableCompat
-import com.github.kr328.clash.design.R
+import com.github.linuzb.nethard.common.compat.getDrawableCompat
+import com.github.linuzb.nethard.design.R
 
 interface ClickableScope {
     fun focusable(defaultValue: Boolean): Boolean

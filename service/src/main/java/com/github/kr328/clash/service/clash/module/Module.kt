@@ -1,13 +1,13 @@
-package com.github.kr328.clash.service.clash.module
+package com.github.linuzb.nethard.service.clash.module
 
 import android.app.Service
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
-import com.github.kr328.clash.common.compat.registerReceiverCompat
-import com.github.kr328.clash.common.constants.Permissions
-import com.github.kr328.clash.common.log.Log
+import com.github.linuzb.nethard.common.compat.registerReceiverCompat
+import com.github.linuzb.nethard.common.constants.Permissions
+import com.github.linuzb.nethard.common.log.Log
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.ReceiveChannel

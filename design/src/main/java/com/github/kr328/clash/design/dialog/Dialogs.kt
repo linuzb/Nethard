@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.dialog
+package com.github.linuzb.nethard.design.dialog
 
 import android.app.Dialog
 import android.content.Context
@@ -8,14 +8,14 @@ import android.view.WindowManager
 import android.widget.FrameLayout
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.ViewCompat
-import com.github.kr328.clash.common.compat.isAllowForceDarkCompat
-import com.github.kr328.clash.common.compat.isSystemBarsTranslucentCompat
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.ui.Insets
-import com.github.kr328.clash.design.ui.Surface
-import com.github.kr328.clash.design.util.getPixels
-import com.github.kr328.clash.design.util.resolveThemedResourceId
-import com.github.kr328.clash.design.util.setOnInsertsChangedListener
+import com.github.linuzb.nethard.common.compat.isAllowForceDarkCompat
+import com.github.linuzb.nethard.common.compat.isSystemBarsTranslucentCompat
+import com.github.linuzb.nethard.design.R
+import com.github.linuzb.nethard.design.ui.Insets
+import com.github.linuzb.nethard.design.ui.Surface
+import com.github.linuzb.nethard.design.util.getPixels
+import com.github.linuzb.nethard.design.util.resolveThemedResourceId
+import com.github.linuzb.nethard.design.util.setOnInsertsChangedListener
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 

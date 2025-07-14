@@ -1,4 +1,4 @@
-package com.github.kr328.clash
+package com.github.linuzb.nethard
 
 import android.Manifest.permission.INTERNET
 import android.content.ClipData
@@ -7,12 +7,12 @@ import android.content.pm.ApplicationInfo
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import androidx.core.content.getSystemService
-import com.github.kr328.clash.design.AccessControlDesign
-import com.github.kr328.clash.design.model.AppInfo
-import com.github.kr328.clash.design.util.toAppInfo
-import com.github.kr328.clash.service.store.ServiceStore
-import com.github.kr328.clash.util.startClashService
-import com.github.kr328.clash.util.stopClashService
+import com.github.linuzb.nethard.design.AccessControlDesign
+import com.github.linuzb.nethard.design.model.AppInfo
+import com.github.linuzb.nethard.design.util.toAppInfo
+import com.github.linuzb.nethard.service.store.ServiceStore
+import com.github.linuzb.nethard.util.startClashService
+import com.github.linuzb.nethard.util.stopClashService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive

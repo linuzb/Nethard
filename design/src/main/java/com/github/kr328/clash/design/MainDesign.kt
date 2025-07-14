@@ -1,15 +1,15 @@
-package com.github.kr328.clash.design
+package com.github.linuzb.nethard.design
 
 import android.content.Context
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import com.github.kr328.clash.core.model.TunnelState
-import com.github.kr328.clash.core.util.trafficTotal
-import com.github.kr328.clash.design.databinding.DesignAboutBinding
-import com.github.kr328.clash.design.databinding.DesignMainBinding
-import com.github.kr328.clash.design.util.layoutInflater
-import com.github.kr328.clash.design.util.resolveThemedColor
-import com.github.kr328.clash.design.util.root
+import com.github.linuzb.nethard.core.model.TunnelState
+import com.github.linuzb.nethard.core.util.trafficTotal
+import com.github.linuzb.nethard.design.databinding.DesignAboutBinding
+import com.github.linuzb.nethard.design.databinding.DesignMainBinding
+import com.github.linuzb.nethard.design.util.layoutInflater
+import com.github.linuzb.nethard.design.util.resolveThemedColor
+import com.github.linuzb.nethard.design.util.root
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

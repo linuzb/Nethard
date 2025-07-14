@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design.preference
+package com.github.linuzb.nethard.design.preference
 
 import android.content.Context
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.adapter.EditableTextListAdapter
-import com.github.kr328.clash.design.dialog.requestModelTextInput
+import com.github.linuzb.nethard.design.R
+import com.github.linuzb.nethard.design.adapter.EditableTextListAdapter
+import com.github.linuzb.nethard.design.dialog.requestModelTextInput
 import kotlinx.coroutines.*
 import kotlin.reflect.KMutableProperty0
 

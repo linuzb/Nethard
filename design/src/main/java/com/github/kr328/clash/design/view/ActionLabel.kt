@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.view
+package com.github.linuzb.nethard.design.view
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -7,9 +7,9 @@ import android.view.View
 import android.widget.FrameLayout
 import androidx.annotation.AttrRes
 import androidx.annotation.StyleRes
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.databinding.ComponentActionLabelBinding
-import com.github.kr328.clash.design.util.layoutInflater
+import com.github.linuzb.nethard.design.R
+import com.github.linuzb.nethard.design.databinding.ComponentActionLabelBinding
+import com.github.linuzb.nethard.design.util.layoutInflater
 
 class ActionLabel @JvmOverloads constructor(
     context: Context,

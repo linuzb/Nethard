@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package com.github.kr328.clash.common.compat
+package com.github.linuzb.nethard.common.compat
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
